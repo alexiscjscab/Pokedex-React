@@ -1,0 +1,28 @@
+.nav {
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image img {
+  margin-left: 50px;
+  opacity: 0.6;
+  filter: alpha(opacity=40);
+}
+
+.fav {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.favIcon {
+  color: #ffff00;
+  font-size: 32px;
+  padding: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,88 @@
+.pokemonCard {
+  display: flex;
+  border: 2px solid #fff;
+  box-shadow: 1px 4px 4px 4px rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  background-color: #fff;
+  margin: 10px 5px 10px 5px;
+  /* background: url("https://i.pinimg.com/originals/5f/00/96/5f009674bb012f8e26ea43dad4abdd00.gif"); */
+  background: rgba(15, 30, 40);
+  color: #fafafa;
+  cursor: alias;
+}
+
+.imgContainer {
+  padding: 0px 5px;
+}
+
+.pokemonImg {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  transition: transform 0.2s;
+}
+
+.pokemonImg:hover {
+  transform: scale(1.5);
+}
+
+.pokemonTypeText {
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0px 10px 10px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.cardTop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cardTop h3 {
+  /* Ponemos los nombres inicia en maysuculas */
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
+.cardTop span {
+  margin-right: 10px;
+}
+
+.cardBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.pokemonType {
+  display: flex;
+  font-size: 20px;
+}
+
+.tipo {
+  margin-right: 10px;
+}
+
+.heartRed {
+  color: #f00;
+}
+
+.pokemonFavorite {
+  margin-right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  transition: transform 0.2s;
+}
+.pokemonFavorite:hover {
+  transform: scale(1.5);
+  margin-bottom: 5px;
+}
